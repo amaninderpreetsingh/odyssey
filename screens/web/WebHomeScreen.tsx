@@ -5,7 +5,7 @@ import GooglePlacesAutocomplete, {
 } from "react-google-places-autocomplete";
 
 const WebHomeScreen = () => {
-  const API_KEY = process.env.API_KEY;
+  // const API_KEY = process.env.API_KEY;
   const [value, setValue] = useState(null);
 
   const handleAddress = (event: any) => {
@@ -18,7 +18,7 @@ const WebHomeScreen = () => {
   return (
     <div>
       <GooglePlacesAutocomplete
-        apiKey={API_KEY}
+        apiKey="AIzaSyCgO6-lmZK2k7lpWIsmUlx__lOxIutWVxc"
         selectProps={{
           onChange: (event) => {
             console.log(event);

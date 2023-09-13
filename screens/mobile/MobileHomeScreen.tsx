@@ -11,7 +11,7 @@ const MobileHomeScreen = () => {
         placeholder="Where to?"
         styles={{ container: { flex: 0 }, textInput: { fontSize: 18 } }}
         query={{
-          key: API_KEY,
+          key: "AIzaSyCgO6-lmZK2k7lpWIsmUlx__lOxIutWVxc",
           language: "en",
         }}
         enablePoweredByContainer={false}
